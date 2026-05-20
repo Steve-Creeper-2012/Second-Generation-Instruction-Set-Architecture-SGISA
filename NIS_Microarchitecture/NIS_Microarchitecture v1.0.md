@@ -1,4 +1,4 @@
-# NIS_Microarchitecture v1.0
+# NIS_Microarchitecture Main v1.0
 ```mermaid
 flowchart TD
     %% ==================== 外部接口与缓冲层 ====================
