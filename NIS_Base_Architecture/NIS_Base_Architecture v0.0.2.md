@@ -28,7 +28,7 @@
 | --- | --- | --- | --- | --- |
 |`16`位|V-Instruction (Vacuum)|单操作简单指令|高能效|`00`|
 |`24`位|F-Instruction (Fluid)|多操作平衡指令|平衡型|`01`|
-|`32`位|-Instruction (Plasma)|多操作复杂指令|高性能|`10`|
+|`32`位|P-Instruction (Plasma)|多操作复杂指令|高性能|`10`|
 |`48`位|S-Instruction (Singularity)|宏操作|顶级性能|`11`|
 
 ### *要点:复杂指令可以转成简单指令*<br>
