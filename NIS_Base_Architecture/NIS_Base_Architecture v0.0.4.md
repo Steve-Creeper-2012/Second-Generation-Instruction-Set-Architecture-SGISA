@@ -1,7 +1,7 @@
 # NIS Base_Architecture v0.0.4 （NIS-Simplified)
 
 ## 1.NIS指令集理念<br>
-**NIS（Native Instruction Set）以定长混合编码（`32/128`位）与统一ISA为核心，通过指令长度直接映射能效层级，实现单架构内从皮瓦级能效到超频性能的连续调节。线程化执行模型使CPU/GPU/NPU共享同一指令空间与零拷贝通信，兼容层纯软件实现，硬件零包袱。**
+**NIS（Native Instruction Set）以定长混合编码（`32/128`位）与统一ISA为核心，实现单架构内从皮瓦级能效到超频性能的连续调节。线程化执行模型使CPU/GPU/NPU共享同一指令空间与零拷贝通信，兼容层纯软件实现，硬件零包袱。**
 
 ## 2.NIS Instruction Set Base Structure
 
