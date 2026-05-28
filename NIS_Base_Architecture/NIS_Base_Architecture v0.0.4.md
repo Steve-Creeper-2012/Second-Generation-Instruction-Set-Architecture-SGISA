@@ -39,13 +39,13 @@
 #### 可变流水线设计
 ##### 取消固定流水线深度设计（仅CPU，不含GPU与NPU），采用可变深度流水线，流水线使用system指令控制  
    
-#### Thread_ID (TID)<br>
+### 2.Thread_ID (TID)<br>
 总共64位，全局可见，独一无二标识，格式自定义
 
-##### Thread_Type<br>
+#### Thread_Type<br>
 总共2位，区分CPU/GPU/NPU/system<br>
    
-##### Thread_State<br>
+#### Thread_State<br>
 共2位，声明状态<br>
 |状态位|状态|
 | --- | --- |
@@ -55,3 +55,10 @@
 |`11`|prepare|
 
 *注:可扩展*
+
+### 3.统一寄存器架构<br>
+#### CPU寄存器<br>
+###### 统一64位，FP32, FP16, FP8, INT32, INT16, INT8, INT4等用子字并行
+
+#### GPU寄存器<br>
+###### 统一512位
