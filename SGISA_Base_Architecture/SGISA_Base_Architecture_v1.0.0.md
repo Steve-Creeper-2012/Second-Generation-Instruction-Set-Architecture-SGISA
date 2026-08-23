@@ -1,0 +1,1 @@
+# SGISA_Base_Architecture v1.0.0
